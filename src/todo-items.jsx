@@ -29,7 +29,7 @@ function Todoitems({ no, display, text, setTodos, isDarkMode }) {
           className={`flex items-center justify-center rounded-full w-6 h-6 border ${
             display === "line-through"
               ? "bg-linear-to-br from-checkbg1 to-checkbg2 border-none"
-              : "border-Gray600"
+              : "border-Gray600 border bg-white/20"
           }`}
         >
           {display === "line-through" && <img src={iconCheck} alt="check" />}
