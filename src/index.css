@@ -1,1 +1,17 @@
+@font-face {
+  font-family: josefin;
+  src: url(./JosefinSans-VariableFont_wght.ttf);
+}
 @import "tailwindcss";
+
+@theme{
+--font-josefin: josefin;  
+--color-Blue500: hsl(220, 98%, 61%);
+--color-checkbg1:hsl(192, 100%, 67%);
+--color-checkbg2: hsl(280, 87%, 65%);
+--color-Gray50: hsl(0, 0%, 98%);
+--color-Purple300: hsl(234, 39%, 85%);
+--color-Gray300: hsl(233, 11%, 84%);
+--color-Gray600: hsl(236, 9%, 61%);
+--color-Navy850: hsl(235, 19%, 35%);
+}
