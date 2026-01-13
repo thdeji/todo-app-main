@@ -1,5 +1,5 @@
-import sunIcon from "./images/icon-sun.svg";
-import moonIcon from "./images/icon-moon.svg";
+import sunIcon from "/images/icon-sun.svg";
+import moonIcon from "/images/icon-moon.svg";
 import { Circle } from "lucide-react";
 import { useRef, useEffect } from "react";
 import { useState } from "react";
@@ -26,7 +26,7 @@ function App() {
   }, [todos]);
 
   return (
-    <div className={`h-screen w-screen font-josefin  transition-all ease-in duration-500  ${isDarkMode? "bg-[url('./images/bg-mobile-light.jpg')] md:bg-[url('./images/bg-desktop-light.jpg')] bg-Gray300":"bg-[url('./images/bg-mobile-dark.jpg')] md:bg-[url('./images/bg-desktop-dark.jpg')] bg-gray-900"} bg-top bg-fixed bg-no-repeat bg-size-[100vw_30vh] py-15 px-10`}>
+    <div className={`h-screen w-screen font-josefin  transition-all ease-in duration-500  ${isDarkMode? "bg-[url('/images/bg-mobile-light.jpg')] md:bg-[url('/images/bg-desktop-light.jpg')] bg-Gray300":"bg-[url('/images/bg-mobile-dark.jpg')] md:bg-[url('/images/bg-desktop-dark.jpg')] bg-gray-900"} bg-top bg-fixed bg-no-repeat bg-size-[100vw_30vh] py-15 px-10`}>
       <div className="flex justify-between items-center">
         <div className="font-josefin font-semibold text-Gray50 text-3xl tracking-widest">
           TODO
