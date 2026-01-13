@@ -1,5 +1,5 @@
-import cross from "/images/icon-cross.svg";
-import iconCheck from "/images/icon-check.svg";
+import cross from "./images/icon-cross.svg";
+import iconCheck from "./images/icon-check.svg";
 
 function Todoitems({ no, display, text, setTodos, isDarkMode }) {
   // 1. Line-through (Toggle) Logic

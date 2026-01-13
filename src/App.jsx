@@ -1,5 +1,5 @@
-import sunIcon from "/images/icon-sun.svg";
-import moonIcon from "/images/icon-moon.svg";
+import sunIcon from "./images/icon-sun.svg";
+import moonIcon from "./images/icon-moon.svg";
 import { Circle } from "lucide-react";
 import { useRef, useEffect } from "react";
 import { useState } from "react";
@@ -18,7 +18,7 @@ function App() {
       ...todos,
       { no: todos.length, text: inputRef.current.value, display: "" },
     ]);
-    inputRef.current.value = ""; //this clears input field data after todo updates
+    inputRef.current.value = "";
   };
 
   useEffect(() => {
