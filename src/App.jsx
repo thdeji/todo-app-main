@@ -36,7 +36,7 @@ function App() {
 
   return (
     <div
-      className={`h-screen w-screen font-josefin  transition-all ease-in duration-500  ${
+      className={`h-full w-screen font-josefin  transition-all ease-in duration-500  ${
         isDarkMode
           ? "bg-[url('/images/bg-mobile-light.jpg')] md:bg-[url('/images/bg-desktop-light.jpg')] bg-Gray300"
           : "bg-[url('/images/bg-mobile-dark.jpg')] md:bg-[url('/images/bg-desktop-dark.jpg')] bg-gray-900"
